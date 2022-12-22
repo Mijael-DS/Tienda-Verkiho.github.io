@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+
+.conteiner-main {
+  background-image: url(../img/spacejoy-9M66C_w_ToM-unsplash.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  } 
+  .principal  {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    
+  }
+}
+
+.info {
+  padding: 1rem;
+  display: grid;
+  gap: 10px;
+  grid-auto-rows: 18rem;
+  grid-template-columns: repeat(auto-fit, minmax(5rem,1fr));
+  grid-auto-flow: dense;
+  .sub-info {
+    img {
+      width: 90%;
+    }
+    h3 {
+      text-align: center;
+      font-size: 1rem;
+    }
+  }
+}
+
+.vendidos {
+  padding: 1rem;
+}
+
