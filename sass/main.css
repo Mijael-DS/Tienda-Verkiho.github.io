@@ -70,4 +70,17 @@ html {
   text-align: center;
   font-size: 1rem;
   padding: 0.5rem;
+}
+
+.movil {
+  display: block;
+}
+
+@media (min-width: 480px) {
+  .movil {
+    display: none;
+  }
+}
+.slader-img {
+  padding: 1rem;
 }/*# sourceMappingURL=main.css.map */

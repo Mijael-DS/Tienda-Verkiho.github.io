@@ -76,3 +76,16 @@ html {
   }
 }
 
+.movil {
+  display: block;
+}
+
+@media (min-width: 480px) {
+  .movil {
+    display: none;
+  }
+}
+.slader-img {
+  padding: 1rem;
+}
+
